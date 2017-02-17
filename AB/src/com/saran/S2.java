@@ -16,7 +16,7 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet("/S2")
 public class S2 extends HttpServlet {
 	public void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
-		
+		System.out.println();
 		res.setContentType("text/html");
 		PrintWriter pw= res.getWriter();
 		pw.println("forwarding S1 to S2");
