@@ -20,6 +20,7 @@ public class S2 extends HttpServlet {
 		res.setContentType("text/html");
 		PrintWriter pw= res.getWriter();
 		pw.println("forwarding S1 to S2");
+		pw.println("again  forwarding S1 to S2");
 	
 }
 }
